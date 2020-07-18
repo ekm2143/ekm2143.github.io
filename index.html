@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:regular,semibold,bold">
+  <title>elizabethkmerrigan</title>
+</head>
+
+<style>
+
+  body{
+    background: #000000;
+    color: white;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+
+
+  a{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 22px;
+  }
+
+  a:hover{
+    color: #39FFD4;
+    text-decoration: none;
+  }
+
+  .photo:hover{
+    opacity: 60px;
+  }
+
+  #line{
+    padding-top: 60px;
+    align-items: center;
+  }
+
+  .tagline{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .tagline:hover{
+    color: #39FFD4;
+  }
+
+  #centering{
+    padding-top: 10%;
+  }
+
+  #menu-below{
+    padding-top: 10%;
+    visibility: hidden;
+    display: flex;
+  }
+
+  #menu-column{
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 250px;
+  }
+
+  @media (max-width: 1200px){
+    #menu-column{
+      visibility: hidden;
+    }
+    #menu-below{
+      visibility: visible;
+    }
+
+    .photo{
+      max-width: 300px;
+    }
+
+    #self{
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 1500px){
+    #line{
+      visibility: hidden;
+    }
+    .tagline{
+      visibility: hidden;
+    }
+  }
+
+</style>
+
+<body>
+  <div class="container">
+      <img src="images/line.png" id="line">
+      <p class="tagline"> Product + Policy + Design</p>
+  </div>
+
+  <div class="container" id="centering">
+    <div class="row align-items-center">
+      <div class="col">
+      </div>
+      <div class="col-6">
+        <img src="images/before.png" class="photo">
+        <div class="d-flex flex-column" id="menu-below">
+            <div class="p-2 item">
+              <a href="resume.html" target="_blank">RESUME</a>
+            </div>
+            <div class="p-2 item">
+              <a href="projects.html" target="_blank">PROJECTS</a>
+            </div>
+            <div class="p-2 item">
+              <a href="mailto:emerrigan20@gmail.com" target="_blank">EMAIL</a>
+            </div>
+            <div class="p-2 item">
+              <a href="https://www.linkedin.com/in/elizabeth-merrigan/" target="_blank">LINKEDIN</a>
+            </div>
+          </div>
+     </div>
+      <div class="col">
+        <div class="d-flex flex-column" id="menu-column">
+            <div class="p-2">
+              <a href="resume.html" target="_blank">RESUME</a>
+            </div>
+            <div class="p-2">
+              <a href="projects.html" target="_blank">PROJECTS</a>
+            </div>
+            <div class="p-2">
+              <a href="mailto:emerrigan20@gmail.com" target="_blank">EMAIL</a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.linkedin.com/in/elizabeth-merrigan/" target="_blank">LINKEDIN</a>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
