@@ -1,0 +1,76 @@
+body{
+  background-color: white;
+  font-family: 'Jura';
+  color: black;
+  font-size: 15px;
+}
+
+h1{
+  font-weight: bold;
+  padding-left:2px;
+  background-color: #02A27F;
+}
+
+#office-hours-redesign{
+  padding-top: 20px;
+}
+
+#neighborly{
+  padding-top: 20px;
+}
+
+.neighborly-padding{
+  padding-left: 100px;
+}
+
+.header-spacing{
+  padding-top: 20px;
+}
+
+.tagline{
+  padding-top: 20px;
+}
+
+.indent{
+  padding-left: 20px;
+}
+
+.education_header{
+  padding-top: 20px;
+}
+
+b{
+
+}
+
+a{
+  color: #02A27F;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.bg-custom{
+  background-color: 02A27F;
+}
+
+.navbar-light .nav-item.active .nav-link{
+  color: #02A27F !important;
+}
+
+.navbar-brand{
+  color: black !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.info{
+  color: black;
+  font-size: 15px;
+}
+
+#profile{
+  border:3px solid black;
+}
