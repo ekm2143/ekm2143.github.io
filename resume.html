@@ -12,103 +12,344 @@
 <style>
 
   body{
-    background: #000000;
-    color: white;
+    background-color: white;
+    font-family: 'Raleway';
+    color: black;
+    font-size: 15px;
   }
 
   h1{
-    font-weight: bold;
+    font-weight: semibold;
+    padding: 10px;
   }
 
+  h2{
+    font-weight: semibold;
+    color: #02A27FF;
+    padding-bottom: 10px;
+  }
+
+  b{
+
+  }
 
   a{
-    font-weight: bold;
-    color: white;
-    font-size: 50px;
-    font-style: normal;
-    line-height: 22px;
+    color: #02A27F;
   }
 
   a:hover{
-    color: #39FFD4;
+    color: black;
     text-decoration: none;
   }
 
-  .photo:hover{
-    opacity: 60px;
+  .bg-custom{
+    background-color: 02A27F;
   }
 
-  #line{
-    padding-top: 60px;
-    align-items: center;
+  .navbar-light .nav-item.active .nav-link{
+    color: #02A27F !important;
   }
 
-  .tagline{
-    padding-top: 10px;
-    font-size: 20px;
+  .navbar-brand{
+    color: black !important;
     font-weight: bold;
+    font-size: 15px;
   }
 
-  .tagline:hover{
-    color: #39FFD4;
-  }
-
-  .item{
-    font-size: 80px;
-  }
-
-  #centering{
-    padding-top: 10%;
-  }
-
-  #menu-below{
-    padding-top: 10%;
-    visibility: hidden;
-    display: flex;
-  }
-
-  #menu-column{
-    display: flex;
-    font-size: 30px;
-    padding-bottom: 250px;
-  }
-
-  @media (max-width: 1200px){
-    #self{
-      max-width: 400px;
-    }
+  .info{
+    color: black;
+    font-size: 15px;
   }
 
 </style>
 
 <body>
-  <div class="container">
-      <img src="images/line.png" id="line">
-      <p class="tagline">RESUME</p>
+
+<div class="row">
+  <div class="col">
+    <div class="pt-2 container vertical-center sticky-top">
+      <nav class="navbar navbar-light bg-custom active">
+          <ul class="navbar-nav">
+            <li class="nav-item pt-2">
+              <a class="navbar-brand" href="index.html">Elizabeth Merrigan</a>
+            </li>
+            <li class="nav-item">
+              <p class="info">BA Political Science<br>Columbia 2020<br></p>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto: emerrigan20@gmail.com">Email</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/elizabeth-merrigan/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education"> #education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience"> #experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#extracurricular"> #extracurriculars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"> #skills</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
   </div>
 
-  <div class="container" id="centering">
-    <div class="row align-items-center">
-      <div class="col">
-        <div class="d-flex flex-column" id="menu-column">
-          <div class="p-2">
-            <a href="" class="item">EDUCATION</a>
-          </div>
-          <div class="p-2">
-            <a href="" class="item">EXPERIENCE</a>
-          </div>
-          <div class="p-2">
-            <a href="" class="item">EXTRACURRICULAR</a>
-          </div>
-          <div class="p-2">
-            <a href=""class="item">SKILLS</a>
-          </div>
+  <div class="col-10">
+    <div class="container" id="education">
+      <div class="row">
+        <div class="col pt-4">
+          <h2>Education</h2>
         </div>
       </div>
-      <div class="col">
+      <div class="row">
+        <div class="col">
+          <p><b>Columbia University, Columbia College</b><br>
+            Bachelor of Arts in Political Science
+          </p>
+        </div>
+        <div class="col-6">
+          <i>New York, NY </i>| May 2020<br>
+            GPA: 3.68/4.0</p>
+          <u>Honors and Scholarships:</u>
+          <ul>
+            <li><b>Pi Sigma Alpha</b> - National Political Science Honor Society (Mu Chapter)</li>
+            <li><b>Dean’s List</b> (Fall 2016, Spring 2017, Fall 2017, Spring 2018)</li>
+            <li><b>Core Scholar</b> (Spring 2017) - Awarded by the Center for the Core Curriculum for
+              a short story submission, with $200 prize
+            <li><b>Columbia Presidential Global Fellowship</b> (June – July 2017) -
+              Highly selective program to foster a community of global ambassadors.
+              Awarded $22,350 grant to study French culture and language in Paris.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p><b>University of Oxford, Lady Margaret Hall</b><br>
+          Visiting Student Programme in Politics</p>
+        </div>
+        <div class="col-6">
+          <i>Oxford, UK </i>| Oct. 2018 – June 2019</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p><b>Newark Academy</b><br>
+          International Baccalaureate Diploma</p>
+        </div>
+        <div class="col-6">
+          <p><i>Livingston, NJ </i>| Sept. 2012 – June 2016<br>
+          GPA: 3.97/4.0</p>
+          <u>Honors and Scholarships:</u>
+          <ul>
+            <li class="awards"><b>Cum Laude Society</b> (2016)</li>
+            <li class="awards"><b>T.C. Abbey Orator, 242nd Commencement Ceremony</b> (2016)
+              - selected by faculty members to give the student address at commencement</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <br>
+      </div>
+    </div>
+
+    <div class="container" id="experience">
+      <br>
+      <div class="row">
+        <div class="col">
+          <h2>Experience</h2>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col">
+          <b>Almaworks Accelerator</b>
+          <br> Fellow @ <a href="http://newsgamer.com/" target="_blank"> NewsGamer</a><br>
+        </div>
+        <div class="col-6">
+          <i>Remote </i>| May 2020 – present</p>
+          <ul>
+            <li>Direct user research, define product-market fit, and explore new use cases
+              for early-stage startup developing software to gamify real-life political conflicts
+              in the news</li>
+          </ul>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col">
+          <p><b><i>Foreign Affairs</i>
+          <br></b>Product Intern<br>
+        </div>
+        <div class="col-6">
+          <i>New York, NY </i>| Jan. 2020 – May 2020</p>
+          <ul>
+            <li>Conducted competitive analysis and user research, including review of backlog of 800+
+            feedback forms
+            <li> Designed improvements for subscription products on the site and present
+            recommendations to Director of Product</li>
+            <li>Developed strategy, copy, and design for custom messaging tool based on
+              user roles to improve customer retention and registration/subscription conversions,
+              leading to over $10k in revenue within the first month after launch</li>
+            </ul>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col">
+          <p><b>Council on Foreign Relations</b>
+            <br>Digital and Cyberspace Policy Intern<br>
+        </div>
+        <div class="col-6">
+          <i>New York, NY </i>| Sept. 2019 – Dec. 2019</p>
+          <ul>
+            <li> Collected data on state-sponsored cyberattacks for publication in the <a href="https://www.cfr.org/interactive/cyber-operations" target="_blank"> Cyber
+              Operations Tracker</a></li>
+            <li>Monitored developments in cyber conflict, tech industry regulations, and
+              federal cyber strategy</li>
+            <li>Researched and authored article on state-sponsored cyber threat
+              actors for <a href="https://www.cfr.org/blog/blurred-lines-between-state-and-non-state-actors" target="_blank"> Net Politics</a></li>
+            <li>Prepared week-in-review posts on news related to cybersecurity, privacy, internet governance, and trade
+          </ul>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col">
+          <p> <b>Columbia University</b>
+          <br>International Affairs Research Fellow<br>
+        </div>
+        <div class="col-6">
+          <i>New York, NY </i>| Jun. 2019 – Aug. 2019</p>
+          <ul>
+            <li>Awarded $3400 grant for independently designed, proposed, and executed research
+              project mapping frames of international press coverage of Huawei to policies
+              regarding 5G network technology. Presented research at Columbia Undergraduate
+              Research Symposium in October 2019</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="extracurricular">
+      <div class="row">
+        <div class="col">
+          <h2>Extracurricular & Volunteer Work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p><b>SafeMap, Inc.</b>
+          <br>Research Volunteer<br>
+        </div>
+        <div class="col-6">
+        <i>Remote </i>| May 2020 – present</p>
+        <ul>
+          <li>Perform market research, identify funding opportunities, and assist recruiting efforts
+            for a nonprofit led by tech industry veterans to develop a mobile application (“<a href="https://www.usezero.org/" target="_blank">Zero</a>”) that
+            scores businesses and services on social distancing efforts</li>
+          </ul>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col">
+          <p><b>Oxford International Relations Society</b>
+          <br>Co-Editor @ <i><a href="https://www.lighthousejournal.co.uk/" target="_blank">The Lighthouse</a></i><br>
+        </div>
+        <div class="col-6">
+          <i>Oxford, UK </i>| Nov. 2018 – Mar. 2019</p>
+          <ul>
+            <li>Commissioned and edited articles and editorials on foreign affairs, technology,
+            climate change, and global economies for the "<a href="https://issuu.com/tomstevens42/docs/finalcoop-compressed?fbclid=IwAR1HZtPjmacJHPQxdOzLe13YIGH_qGz4q7LuVIT59B3dK-ZvRb0td8OsOz8" target="_blank">Cooperation</a>" issue of the journal</li>
+            <li>Managed fundraising efforts, budget, and distribution of print
+              publication to 25 colleges</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p><b>Columbia Daily Spectator</b>
+         <br>Associate Features Editor @ <i><a href="https://www.columbiaspectator.com/eye/" target="_blank">The Eye</a></i></br>
+        </div>
+        <div class="col-6">
+          <i>New York, NY </i>| Sept. 2016 – Dec. 2018</p>
+          <ul>
+            <li>Reported on student life for investigative features and managed production timelines
+              for team of 8 writers to cover stories on Morningside Heights, Manhattanville, and
+              West Harlem</li>
+            <li> Led completion of a comprehensive coverage guide, including source contacts
+              and historical research</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-5" id="skills">
+      <div class="row">
+        <div class="col">
+          <h2>Skills</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col-6">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <b>Programming</b>
+        </div>
+        <div class="col-6">
+          Working knowledge of Java, Python, R, HTML5/CSS<br><br>
+          <u>Coursework:</u>
+          <ul>
+            <li>Intro to Computer Science in Java</li>
+            <li>Data Structures (Java)</li>
+            <li>Discrete Math (w/ Python)</li>
+            <li>Linear Algebra</li>
+            <li>Methods in Political Science (in R)</i>
+            <li>Literature in the Age of Artificial Intelligence</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <b>Design</b>
+        </div>
+        <div class="col-6">
+          <p>Figma; Adobe XD; Sketch; InVision<p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <b>Project Management</b>
+        </div>
+        <div class="col-6">
+          <p>Trello, Jira, Google Suite, Google Analytics, Microsoft Office</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <b>Other</b>
+        </div>
+        <div class="col-6">
+          <p> LexisNexis</p>
+                  <br><br>
+        </div>
+
       </div>
     </div>
   </div>
+</div>
+
 
 </body>
 </html>
