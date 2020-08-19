@@ -2,13 +2,17 @@ body{
   background-color: white;
   font-family: 'Jura';
   color: black;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 h1{
   font-weight: bold;
   padding-left:2px;
-  background-color: #02A27F;
+}
+
+h4{
+  color: #02A27F;
+  font-size: 18px;
 }
 
 #office-hours-redesign{
@@ -56,14 +60,20 @@ a:hover{
   background-color: 02A27F;
 }
 
-.navbar-light .nav-item.active .nav-link{
-  color: #02A27F !important;
+.navbar-light .nav-item.active{
+
+}
+
+.nav-item{
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar-brand{
   color: black !important;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .info{
@@ -73,4 +83,8 @@ a:hover{
 
 #profile{
   border:3px solid black;
+}
+
+#project{
+  padding-bottom: 20px;
 }
