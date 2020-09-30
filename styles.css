@@ -1,6 +1,11 @@
+html{
+  scroll-behavior: smooth;
+
+}
+
 body{
-  background-color: white;
-  font-family: 'Jura';
+  font-family: 'Work Sans';
+  style: regular;
   color: black;
   font-size: 18px;
 }
@@ -11,70 +16,52 @@ body,html {
 
 h1{
   font-weight: bold;
-  padding-left:2px;
+  font-family: 'Spectral';
+  font-weight: 600;
+  font-style: italic;
 }
 
-h4{
-  font-size: 18px;
-  color: black;
+h2{
+  font-weight: bold;
+  font-family: 'Spectral';
+  font-weight:600;
+  padding-bottom:5%;
 }
 
-#office-hours-redesign{
-  padding-top: 20px;
+ul{
+  list-style-type: none; !important
+  margin:0;
+  padding:0;
 }
 
-#neighborly{
-  padding-top: 20px;
+.card:hover{
+  -webkit-box-shadow: 0px 9px 34px -12px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 9px 34px -12px rgba(204,204,204,1);
+  box-shadow: 0px 9px 34px -12px rgba(204,204,204,1);
 }
 
-#home{
-  color: black;
+.fa-linkedin{
+  color: #0072b1;
 }
 
 .top-offset{
   padding-bottom: 10%;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.neighborly-padding{
-  padding-left: 100px;
-}
-
-.header-spacing{
-  padding-top: 20px;
-}
-
-.tagline{
-  padding-top: 20px;
-}
-
-.indent{
-  padding-left: 20px;
-}
-
-.education_header{
-  padding-top: 20px;
-}
-
-b{
-
-}
-
 a{
-  color: #02A27F;
+  color: black;
 }
 
 a:hover{
-  color: black;
+  color: #495057;
+  opacity: 70%;
   text-decoration: none;
 }
+
+.card-img-top{
+  max-width: 210px;
+}
+
 
 .nav-item{
   font-size: 25px;
@@ -109,25 +96,9 @@ a:hover{
   border-radius: 10px;
 }
 
-#spacing{
-  padding-top:20px;
-  padding-bottom: 20px;
-}
-
-#profile{
-  border:3px solid black;
-}
-
-#project{
-  padding-bottom: 20px;
-}
-
-.button-wrapper .btn{
-  margin-bottom:5px;
-}
-
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) {
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
